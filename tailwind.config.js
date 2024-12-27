@@ -23,8 +23,9 @@ module.exports = {
       },
       fontFamily: {
         //sans: ['var(--font-space-grotesk)', ...fontFamily.sans],
-        sans: ['noto-sans-hk',
-          'noto-sans-sc',
+        sans: ['Hanken Grotesk Variable',
+          'Noto Sans HK Variable',
+          'Noto Sans SC Variable',
           //'var(--font-space-grotesk)',
           ...fontFamily.sans],
       },

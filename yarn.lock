@@ -1310,6 +1310,11 @@
   resolved "https://registry.npmmirror.com/@floating-ui/utils/-/utils-0.2.8.tgz"
   integrity sha512-kym7SodPp8/wloecOpcmSnWJsK7M0E5Wg8UcFA+uO4B9s5d0ywXOEro/8HM9x0rW+TljRzul/14UYz3TleT3ig==
 
+"@fontsource-variable/hanken-grotesk@^5.1.0":
+  version "5.1.0"
+  resolved "https://registry.npmmirror.com/@fontsource-variable/hanken-grotesk/-/hanken-grotesk-5.1.0.tgz"
+  integrity sha512-QD3pm2uu/4T7hWZylys1Ja9vlG+3VQKs/j7XvpecARlqJeVXgONoxY9zsrKeVI5B/6D3+xhu/XjOZhMHfzRghg==
+
 "@fontsource-variable/noto-sans-hk@^5.1.0":
   version "5.1.0"
   resolved "https://registry.npmmirror.com/@fontsource-variable/noto-sans-hk/-/noto-sans-hk-5.1.0.tgz"

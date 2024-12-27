@@ -12,6 +12,7 @@
     "prepare": "husky"
   },
   "dependencies": {
+    "@fontsource-variable/hanken-grotesk": "^5.1.0",
     "@fontsource-variable/noto-sans-hk": "^5.1.0",
     "@fontsource-variable/noto-sans-sc": "^5.1.0",
     "@fontsource/noto-sans-hk": "^5.1.0",
