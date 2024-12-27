@@ -23,8 +23,8 @@ module.exports = {
       },
       fontFamily: {
         //sans: ['var(--font-space-grotesk)', ...fontFamily.sans],
-        sans: ['var(--font-noto-sans-hk)',
-          'var(--font-noto-sans-sc)',
+        sans: ['noto-sans-hk',
+          'noto-sans-sc',
           //'var(--font-space-grotesk)',
           ...fontFamily.sans],
       },
