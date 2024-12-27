@@ -12,6 +12,9 @@
     "prepare": "husky"
   },
   "dependencies": {
+    "@fontsource-variable/noto-sans-hk": "^5.1.0",
+    "@fontsource-variable/noto-sans-sc": "^5.1.0",
+    "@fontsource/noto-sans-hk": "^5.1.0",
     "@headlessui/react": "2.2.0",
     "@next/bundle-analyzer": "15.0.2",
     "@tailwindcss/forms": "^0.5.9",

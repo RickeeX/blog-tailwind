@@ -1310,6 +1310,21 @@
   resolved "https://registry.npmmirror.com/@floating-ui/utils/-/utils-0.2.8.tgz"
   integrity sha512-kym7SodPp8/wloecOpcmSnWJsK7M0E5Wg8UcFA+uO4B9s5d0ywXOEro/8HM9x0rW+TljRzul/14UYz3TleT3ig==
 
+"@fontsource-variable/noto-sans-hk@^5.1.0":
+  version "5.1.0"
+  resolved "https://registry.npmmirror.com/@fontsource-variable/noto-sans-hk/-/noto-sans-hk-5.1.0.tgz"
+  integrity sha512-reW/cQ6NumiGx3psv12GpPHPYlDCjB0VWEvXgr/oyT7h8C1Q7+vxIayBd3DdxFY9oh9kYe5GleqBLAY+yY+Wwg==
+
+"@fontsource-variable/noto-sans-sc@^5.1.0":
+  version "5.1.0"
+  resolved "https://registry.npmmirror.com/@fontsource-variable/noto-sans-sc/-/noto-sans-sc-5.1.0.tgz"
+  integrity sha512-PnnGFWTVyoSdiZU/QvH3w8NroJkBazLWEzrrfqdGX/S6txq6iDoNMG+bolTsAQ4dXbdvfKBTyX6kw/xg5bmdcg==
+
+"@fontsource/noto-sans-hk@^5.1.0":
+  version "5.1.0"
+  resolved "https://registry.npmmirror.com/@fontsource/noto-sans-hk/-/noto-sans-hk-5.1.0.tgz"
+  integrity sha512-JOyTbyPqvQ3YH/KccUUyJXOw5Fv2X9M/vXLXMYDMz4r5USQy0qChAzKPaMDNIpdWR/njOyqnrnZbPmtt2SR67A==
+
 "@giscus/react@^3.0.0":
   version "3.0.0"
   resolved "https://registry.npmmirror.com/@giscus/react/-/react-3.0.0.tgz"
