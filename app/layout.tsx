@@ -6,7 +6,7 @@ import { Space_Grotesk } from 'next/font/google'
 // Supports weights 100-900
 import '@fontsource-variable/noto-sans-hk'
 import '@fontsource-variable/noto-sans-sc'
-import '@fontsource-variable/hanken-grotesk/wght-italic.css'
+import '@fontsource-variable/hanken-grotesk'
 import { Analytics, AnalyticsConfig } from 'pliny/analytics'
 import { SearchProvider, SearchConfig } from 'pliny/search'
 import Header from '@/components/Header'

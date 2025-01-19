@@ -79,6 +79,8 @@ module.exports = () => {
         },
       ],
       unoptimized,
+      dangerouslyAllowSVG: true, // 允许加载 SVG
+      contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
     },
     async headers() {
       return [
@@ -98,3 +100,4 @@ module.exports = () => {
     },
   })
 }
+
