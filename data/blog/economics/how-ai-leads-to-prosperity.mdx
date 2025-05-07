@@ -1,0 +1,84 @@
+---
+title: AI 如何帶來繁榮
+date: '2025-5-3'
+tags: ['AI']
+draft: false
+summary: AI 作為技術革命如何導向人類的繁榮？一個可能得邏輯鏈。
+images: []
+---
+
+AI 大模型的潛力是無窮的。正如 Sam Altman 所說：
+
+1. The intelligence of an AI model roughly equals the log of the resources used to train and run it.
+2. The cost to use a given level of AI falls about 10x every 12 months, and lower prices lead to much more use.
+3. The socioeconomic value of linearly increasing intelligence is **super-exponential** in nature.
+
+Super-exponential 一詞所言非虛。從 2022 年末的 GPT-3.5 發展到現在的 Gemini 2.5 pro，AI 大模型的智力以驚人的速度增長，已經從一個新奇的玩物變成了徹底更換大量研究型工作方法論的生產力。這不是產業升級，而是一次實打實的技術革命。
+
+## 失業分析：經濟學視角
+
+每一次技術革命都伴隨著大量的失業。設生產函數為：
+
+$$
+Y=F(A,K,L),
+$$
+
+其中 $Y$ 代表總產出，$A_{\text{AI}}$（此處簡寫為 $A$）代表 AI 的技術水平，$K$ 代表資本要素，$L$ 代表勞動力要素。資本要素也就是一切非勞動力要素，包括 AI 大模型在工作場景中的使用。
+
+定義勞動力和資本的邊際產出：
+
+$$
+MPL=\frac{\partial Y}{\partial L},\quad MPK=\frac{\partial Y}{\partial K}.
+$$
+
+技術的進步將導致這兩個函數至少一個增加，即 $A$ 滿足：
+
+$$
+\forall K,L,\quad \frac{\partial MPL}{\partial A}=\frac{\partial^2 Y}{\partial A\partial L}>0\quad \text{or}\quad \frac{\partial MPK}{\partial A}=\frac{\partial^2 Y}{\partial A\partial K}>0.
+$$
+
+具體地，可以考慮三個技術進步的極端例子：
+
+- 希克斯（Hicks）中性：$Y=F(A,K,L)=A\cdot F(K,L)$，技術同等提升勞動力和資本的產出效率。
+- 哈羅德（Harrod）中性：$Y=F(A,K,L)=F(K,A\cdot L)$，技術僅提升勞動力的產出效率，這種技術進步又名「勞動增強型」技術進步。
+- 索洛（Solow）中性：$Y=F(A,K,L)=F(A\cdot K,L)$，技術僅提升資本的產出效率，這種技術進步又名「資本增強型」技術進步。
+
+AI 帶來的技術進步是極為復雜的，很可能兼具勞動增強、資本增強的特征。
+
+## 低端勞動力和高端勞動力
+
+一個非常有可能發生的情況是：AI 將取代低級勞動力，同時增強高級勞動力。具體而言，「低級」和「高級」指：
+
+- 低級腦力勞動：強重複性、規範化、基於規則的腦力任務。AI 在這方面能力出色。
+- 高級腦力勞動：創造性思維、戰略規劃、人際溝通與協作、情感問題、非結構化和高度不確定性的任務。AI 在這方面，目前來看，還無法達到替代人類的智能；然而 AI 可以作為強大的輔助工具。
+
+我們可以將低級腦力勞動力設為 $L_L$，高級腦力勞動力設為 $L_H$。將以下兩點作為分析的出發點：
+
+1. AI 的發展使得資本 $K$ 與低端勞動力 $L_L$ 的替代效應增強。
+2. AI 的發展顯著增強了 $MPL_H$，但沒有顯著增強 $MPL_L$。
+
+即可以認為 AI 的技術進步對於高級腦力勞動是勞動增強型的，但對於低級腦力勞動沒有作用。將此時生產函數定義為：
+
+$$
+Y=G(A_KK,A_LL_L,L_H)=G(X_1,X_2,X_3).
+$$
+
+資本和低級腦力勞動的強替代性表示為：
+
+$$
+\frac{\partial MPL_L}{\partial (A_KK)}=G''_{13}<0.
+$$
+
+因此，隨著 $A_K$ 的上升，$MPL_L$ 曲線將左移。
+
+<div className="flex flex-col items-center [&_p]:!my-0 -mt-8 mb-6">
+    <div>
+        ![diagram 01](/static/images/econ/diagram-01.jpeg)
+    </div>
+    {/* <span className="-mt-4 text-sm text-gray-600 dark:text-gray-400">
+        空無一人的車站。明亮的色彩讓這裡極具生活氣息，仿佛能夠想象每天來來往往通勤的市民。
+    </span> */}
+</div>
+
+
+
