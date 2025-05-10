@@ -2,7 +2,7 @@
 title: 懦夫博弈
 date: '2025-5-7'
 tags: ['Economics','Game Theory']
-draft: true
+draft: false
 summary: 懦夫博弈（Game of chicken）的基本數學探討，以及現實影響。
 images: []
 ---
@@ -85,7 +85,18 @@ $$
 
 ## 例子：中美關稅戰
 
-在核威懾、貿易戰、軍備競賽等政治博弈的語境下，博弈更可能是分階段的，且沒有明確的終點（冷戰就是很好的例子）。以中美關稅戰為例，站在 2025 年 5 月，關稅戰基本是回合製遊戲，儘管中國的反擊通常十分及時（當天內完成），但這依然是序貫博弈。以相安無事作為基準的 $(0, 0)$ 收益，我們可能會得出如下的收益矩陣：
+在核威懾、貿易戰、軍備競賽等政治博弈的語境下，博弈更可能是分階段的，且沒有明確的終點（冷戰就是很好的例子）。以中美關稅戰為例，站在 2025 年 5 月，關稅戰基本是回合製遊戲，儘管中國的反擊通常十分及時（當天內完成），但這依然是序貫博弈。
+
+<div className="flex flex-col items-center [&_p]:!-my-2 -mt-8 mb-6">
+    <div>
+        ![diagram 02](/static/images/econ/game-of-chicken/diag-02-tariff-war.jpg)
+    </div>
+    <span className="-mt-4 text-sm text-gray-600 dark:text-gray-400">
+        中美關稅戰的升級路徑
+    </span>
+</div>
+
+以相安無事作為基準的 $(0, 0)$ 收益，我們可能會得出如下的收益矩陣：
 
 $$
 \begin{array}{|l|c|c|}
